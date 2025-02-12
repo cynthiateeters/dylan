@@ -1,22 +1,33 @@
 {
   "name": "dylan-morales",
-  "version": "1.1.0",
+  "version": "1.1.1",
+  "description": "Get to know Dylan Morales",
   "main": "index.js",
   "bin": {
     "dylan": "index.js"
   },
+  "files": [
+    "index.js",
+    "README.md"
+  ],
   "scripts": {
     "test": "echo \"error: no test specified\" && exit 1",
     "lint": "eslint **/*.js"
   },
-  "keywords": [],
-  "author": "Dylan Morales <G00313284@stu.raritanval.edu> (https://github.com/DylanMMorales)",
-  "license": "MIT",
-  "description": "",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/DylanMMorales/dylan.git"
   },
+  "keywords": [
+    "cli",
+    "command-line"
+  ],
+  "author": "Dylan Morales <G00313284@stu.raritanval.edu> (https://github.com/DylanMMorales)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DylanMMorales/dylan/issues"
+  },
+  "homepage": "https://github.com/DylanMMorales/dylan#readme",
   "devDependencies": {
     "@eslint/js": "^9.19.0",
     "eslint": "^9.19.0",
